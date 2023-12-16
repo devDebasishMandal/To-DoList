@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <div id="main">
+    <div id="main">
 
-    <div id="black">
-       <h1 id="heading">todo</h1>
-    </div>
-    
-    <div id="grey">
-        <div id="addTask">
-            <form action="">
-                <input type="text">
-            <button type="submit">Add ⨁</button>
-            </form>
+        <div id="black">
+            <img src="./rocket.png" alt="" class="rocket">
+            <h1 id="heading"><span class="to">to</span>do</h1>
         </div>
-        <div id="task-heading">
-            <p>To-do List</p>
-            <p>High Priority</p>
-        </div>
-        <div id="tasks">
+        <div id="grey">
+            <div id="addTask">
+                <form action="" id="form">
+                    <input type="text" placeholder="Enter your to-do List Task task">
+                    <button type="submit" id="addButton" onclick="">Add ⨁</button>
+                </form>
+            </div>
+            <div id="main-task">
+                <div id="task-heading">
+                    <p>To-do List</p>
+                    <p>High Priority</p>
+                </div>
+                <div id="tasks">
 
-        </div>
-        <div id="task-footer">
-         <div id="started"></div>
-         <div id="completed"></div>
+                </div>
+                <div id="task-footer">
+                    <div id="started">
+                        <p>Started</p>
+                    </div>
+                    <div id="completed">
+                        <p>Completed</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-   </div>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>

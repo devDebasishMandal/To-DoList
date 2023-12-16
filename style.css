@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: pink;
+  }
+
+
+
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+#black{
+    background-color: #000;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#heading{
+color:#4EA8DE;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+#grey{
+    background-color: rgb(53, 49, 49);
+    height: 80%;
+    width: 100%;
+}
